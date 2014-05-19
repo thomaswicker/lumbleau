@@ -1,0 +1,182 @@
+.dvdsandcdsContainerBody {
+	float: left;
+	width: 100%;
+	height: 240px;
+	background-image: url("../img/vintage_dvds.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 0 -220px;
+
+	div {
+		width: 100%;
+		margin-top: 8%;
+		text-align: center;
+
+		@media only screen and (min-width:0px) and (max-width:600px) { 
+			margin-top: 12%;
+		}
+
+		img {
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+
+	@media only screen and (min-width:1201px) and (max-width:1400px) { 
+		background-size: 100%;
+		background-position: 0 -190px;
+	}
+
+	@media only screen and (min-width:1010px) and (max-width:1200px) { 
+		background-size: 100%;
+		background-position: 0 -180px;
+	}
+
+	@media only screen and (min-width:768px) and (max-width:1009px) { 
+		background-size: 100%;
+		background-position: 0 -150px;
+	}
+
+	@media only screen and (min-width:501px) and (max-width:767px) { 
+		height: 200px;
+		background-position: 0 -80px;
+	}	
+
+	@media only screen and (min-width:0px) and (max-width:550px) { 
+		height: 130px;
+		background-size: 140%;
+		background-position: -60px -80px;
+	}
+}
+
+.dvdsandcdsContainerTitle {
+	float: left;
+	width: 100%;
+	height: 15px;
+	background-color: $darkblue;
+	color: $white;
+	border-top: 2px solid $white;
+	border-bottom: 2px solid $white;
+	font-size: 1.9em;
+	font-family: "Blackjack";
+	font-weight: 100;
+
+	p {
+		display: none;
+	}
+}
+
+.dvdsandcdsContainerMainBody {
+	float: left;
+	width: 100%;
+	height: 100%;
+	background-color: lighten($lightgreen, 18%);
+	padding: 0px 20px 10px 20px;
+}
+
+.dvdsandcdsBlock {
+	float: left;
+	width: 100%;
+	height: auto;
+	border-bottom: 1px solid $mediumblue;
+	padding: 10px 0px 20px 0px;
+	@include box-shadow($charcoal 0px 0px 5px); 
+	background-color: $white;
+	margin: 20px 0px 0px 0px;
+}
+
+.dvdsandcdsBlockLeft {
+	float: left;
+	width: 20%;
+	height: auto;
+	padding: 20px 0px 10px 0px;
+	text-align: center;
+
+	@media only screen and (min-width:993px) and (max-width:1200px) {
+		width: 20%;
+	}
+
+	@media only screen and (min-width:768px) and (max-width:992px) {
+		width: 30%;
+	}
+
+	@media only screen and (min-width:0px) and (max-width:767px) { 
+		width: 100%;
+	}
+
+	img {
+		width: 60%;
+		border: 1px solid $lightgray;
+		padding: 8px;
+
+		@media only screen and (min-width:993px) and (max-width:1200px) {
+			width: 60%;
+		}
+
+		@media only screen and (min-width:768px) and (max-width:992px) {
+			width: 70%;
+		}
+
+		@media only screen and (min-width:0px) and (max-width:767px) { 
+			width: 50%;
+		}
+	}
+}
+
+.dvdsandcdsBlockRight {
+	float: left;
+	width: 80%;
+	height: auto;
+	text-align: left;
+	padding: 20px 30px 10px 20px;
+
+	@media only screen and (min-width:993px) and (max-width:1200px) {
+		width: 80%;
+	}
+
+	@media only screen and (min-width:768px) and (max-width:992px) {
+		width: 70%;
+	}
+
+	@media only screen and (min-width:0px) and (max-width:767px) { 
+		width: 100%;
+		padding: 20px 30px 10px 30px;
+	}
+
+	h3 {
+		float: left;
+		width: 100%;
+		font-size: 1.3em;
+		font-family: "Bernard";
+		margin: 0px 0px 8px 0px;
+	}
+
+	p {
+		float: left;
+		width: 100%;
+		font-family: $regular;
+		line-height: 1.3em;
+		font-size: .9em;
+	}
+
+	span {
+		float: left;
+		display: block;
+		width: 100%;
+	}
+
+	button {
+		min-width: 250px;
+		max-width: 250px;
+		margin: 20px 0px 0px 0px;
+		text-transform: uppercase;
+		font-family: $lato;
+		font-size: .75em;
+		font-weight: 300;
+
+		@media only screen and (min-width:0px) and (max-width:767px) { 
+			font-weight: 600;
+			margin: 20px 0px 0px -15px;
+		}
+	}
+}

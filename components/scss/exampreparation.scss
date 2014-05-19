@@ -1,0 +1,71 @@
+
+.examPreparationContainerBody {
+	float: left;
+	width: 100%;
+	height: 190px;
+	background-image: url("../img/vintage_exam.jpg");
+	background-repeat: norepeat;
+	background-size: cover;
+	background-position: 0 -240px;
+
+	div {
+		width: 100%;
+		margin-top: 1%;
+		text-align: center;
+
+		@media only screen and (min-width:0px) and (max-width:600px) { 
+			margin-top: 2%;
+		}
+
+		img {
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+
+	@media only screen and (min-width:993px) and (max-width:1200px) { 
+		background-size: 100%;
+		background-position: 0 -220px;
+	}
+
+	@media only screen and (min-width:768px) and (max-width:992px) { 
+		background-size: 100%;
+		background-position: 0 -170px;
+	}
+
+	@media only screen and (min-width:501px) and (max-width:767px) { 
+		height: 200px;
+		background-position: 0 -80px;
+	}	
+
+	@media only screen and (min-width:0px) and (max-width:550px) { 
+		height: 130px;
+		background-size: 130%;
+		background-position: -45px -75px;
+	}
+}
+
+.examPreparationContainerTitle {
+	float: left;
+	width: 100%;
+	height: 15px;
+	background-color: $darkblue;
+	color: $white;
+	border-top: 2px solid $white;
+	border-bottom: 2px solid $white;
+	font-size: 1.9em;
+	font-family: "Blackjack";
+	font-weight: 100;
+
+	p {
+		display: none;
+	}
+}
+
+.examPreparationMainBody {
+	float: left;
+	width: 100%;
+	height: 100%;
+	background-color: lighten($lightgreen, 18%);
+	padding: 0px 20px 10px 20px;
+}

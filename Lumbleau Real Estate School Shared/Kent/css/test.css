@@ -1,0 +1,285 @@
+#fuckwebdesign {
+	color: #7ba296;
+	background: #000000;
+	font-size:100px;
+}
+
+
+@font-face {
+	font-family: mathletebulky;
+	src:url(fonts/Mathlete-Bulky-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Mathlete-Bulky-webfont.woff') format('woff'),
+         url('fonts/Mathlete-Bulky-webfont.ttf') format('truetype'),
+         url('fonts/Mathlete-Bulky-webfont.svg#mathletebulky') format('svg);
+}
+@font-face {
+	font-family: SteelfishRgRegular;
+	src:url(fonts/steelfish_rg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/steelfish_rg-webfont.woff') format('woff'),
+         url('fonts/steelfish_rg-webfont.ttf') format('truetype'),
+         url('fonts/steelfish_rg-webfont.svg#SteelfishRgRegular') format('svg);
+}
+@font-face {
+	font-family: blackjackregular;
+	src:url(fonts/black_jack-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/black_jack-webfont.woff') format('woff'),
+         url('fonts/black_jack-webfont.ttf') format('truetype'),
+         url('fonts/black_jack-webfont.svg#blackjackregular') format('svg);
+}
+@font-face {
+	font-family: BernardMTCondensedRegular;
+	src:url(fonts/bernhc.eot?#iefix') format('embedded-opentype'),
+         url('fonts/bernhc.woff') format('woff'),
+         url('fonts/bernhc.ttf') format('truetype'),
+         url('fonts/bernhc.svg#BernardMTCondensedRegular') format('svg);
+}
+.blackjack {
+	FONT-FAMILY: 'blackjackregular'
+}
+.mathlete {
+	FONT-FAMILY: 'mathletebulky'
+}
+.steelfish {
+	FONT-FAMILY: 'SteelfishRgRegular'
+}
+.right {
+	FLOAT: right
+}
+.left {
+	FLOAT: left
+}
+.clear {
+	WIDTH: 0px; DISPLAY: block; HEIGHT: 0px; VISIBILITY: hidden; CLEAR: both; OVERFLOW: hidden
+}
+.clearfix:before {
+	WIDTH: 0px; DISPLAY: block; HEIGHT: 0px; VISIBILITY: hidden; OVERFLOW: hidden
+}
+.clearfix:after {
+	WIDTH: 0px; DISPLAY: block; HEIGHT: 0px; VISIBILITY: hidden; OVERFLOW: hidden
+}
+.clearfix:after {
+	CLEAR: both
+}
+.clearfix {
+	ZOOM: 1
+}
+.align_left {
+	TEXT-ALIGN: left
+}
+.align_center {
+	TEXT-ALIGN: center
+}
+.align_right {
+	TEXT-ALIGN: right
+}
+BODY {
+	POSITION: relative; MARGIN: 0px auto
+}
+.wrap {
+	POSITION: relative; MIN-WIDTH: 320px; MARGIN: 0px auto; OVERFLOW: hidden
+}
+#header {
+	POSITION: relative; BACKGROUND: url(../images/bg.jpg) no-repeat center top; PADDING-TOP: 58px
+}
+FORM.login {
+	POSITION: absolute; TOP: 5px; LEFT: 5px
+}
+INPUT.login {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 5px; BACKGROUND-COLOR: #fff; PADDING-LEFT: 5px; WIDTH: 137px; PADDING-RIGHT: 5px; FONT-FAMILY: Arial; MARGIN-BOTTOM: 5px; FLOAT: left; HEIGHT: 20px; COLOR: #8fa8b5; CLEAR: left; FONT-SIZE: 11px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 5px; -webkit-border-radius: 5px; border-radius: 5px; -moz-border-radius: 5px; -webkit-box-shadow: inset 1px 1px 2px 1px rgba(25,24,25,0.3); -moz-box-shadow: inset 2px 2px 2px 1px rgba(25,24,25,0.3); box-shadow: inset 1px 1px 2px 1px rgba(25,24,25,0.3)
+}
+:unknown {
+	COLOR: #8fa8b5
+}
+:unknown {
+	COLOR: #8fa8b5
+}
+:unknown {
+	COLOR: #8fa8b5
+}
+:unknown {
+	COLOR: #8fa8b5
+}
+#forgot-pass {
+	FONT-FAMILY: Arial; MARGIN-BOTTOM: 5px; FLOAT: left; COLOR: #13335a; CLEAR: left; FONT-SIZE: 7px
+}
+#sign-in {
+	FLOAT: left; CLEAR: left
+}
+
+
+
+
+
+
+#phone {
+	POSITION: absolute; TEXT-INDENT: -999px; DISPLAY: block; BACKGROUND-REPEAT: no-repeat; OVERFLOW: hidden
+}
+#email {
+	POSITION: absolute; TEXT-INDENT: -999px; DISPLAY: block; BACKGROUND-REPEAT: no-repeat; OVERFLOW: hidden
+}
+
+#phone {
+	BACKGROUND-IMAGE: url(../images/phone.png); WIDTH: 31px; HEIGHT: 25px; TOP: 10px; RIGHT: 18px
+}
+
+#email {
+	BACKGROUND-IMAGE: url(../images/email.png); WIDTH: 27px; HEIGHT: 19px; TOP: 42px; RIGHT: 20px
+}
+
+
+
+
+
+
+
+#logo {
+	MARGIN-BOTTOM: -15px
+}
+.tagline {
+	PADDING-BOTTOM: 10px; BACKGROUND-COLOR: #fff; MARGIN: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; COLOR: #afb01e; FONT-SIZE: 28px; FONT-WEIGHT: normal; PADDING-TOP: 14px; box-shadow: 0 -2px 3px 0 rgba(0,0,0,0.1)
+}
+#view-menu {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 8px; TEXT-TRANSFORM: uppercase; MARGIN: 0px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BACKGROUND: #74ac9f; LETTER-SPACING: 2px; COLOR: #fff; CURSOR: pointer; FONT-WEIGHT: normal; PADDING-TOP: 8px; box-shadow: 0 3px 5px 0 rgba(0,0,0,0.2)
+}
+.open#view-menu {
+	BACKGROUND: #54c2b4
+}
+#main_nav {
+	Z-INDEX: 10000; POSITION: relative; DISPLAY: none; BACKGROUND: #ffffff; RIGHT: 0px; LEFT: 0px
+}
+#main_nav OL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#main_nav LI {
+	BORDER-BOTTOM: #74ac9f 1px solid; DISPLAY: block
+}
+#main_nav A {
+	PADDING-BOTTOM: 10px; TEXT-TRANSFORM: uppercase; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; DISPLAY: block; FONT-FAMILY: 'SteelfishRgRegular'; COLOR: #74ac9f; FONT-SIZE: 24px; TEXT-DECORATION: none; PADDING-TOP: 10px
+}
+#main_nav A:hover {
+	BACKGROUND: #74ac9f; COLOR: #fff
+}
+#main_nav LI.active A {
+	BACKGROUND: #74ac9f; COLOR: #fff
+}
+.boxes {
+	
+}
+.boxes .box {
+	BOX-SIZING: border-box; PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; WIDTH: 50%; PADDING-RIGHT: 0px; FLOAT: left; COLOR: #fff; PADDING-TOP: 20px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box
+}
+.boxes .salesperson {
+	BACKGROUND: url(../images/salesperson_pattern.png) #ed8e78
+}
+.boxes .broker {
+	BACKGROUND: url(../images/broker_bg.png) #7ba296 no-repeat center 5px
+}
+.boxes .mortgage {
+	BACKGROUND: url(../images/mortgage_pattern.png) #00b1ac
+}
+.boxes .continuing {
+	BACKGROUND: url(../images/continuing_bg.png) #5a7e92 no-repeat center 8px
+}
+.box .box_name {
+	LINE-HEIGHT: 1; FONT-FAMILY: 'blackjackregular'; FONT-SIZE: 27px
+}
+.box .box_desc {
+	LINE-HEIGHT: 1; TEXT-TRANSFORM: uppercase; FONT-FAMILY: 'mathletebulky'; MARGIN-BOTTOM: 16px; FONT-SIZE: 30px
+}
+.box .go {
+	FONT-FAMILY: 'BernardMTCondensedRegular'; COLOR: #fff; FONT-SIZE: 20px; TEXT-DECORATION: none
+}
+.small_banner {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 12px; PADDING-LEFT: 35px; PADDING-RIGHT: 35px; FONT: 24px/1.2 'blackjackregular'; BACKGROUND: #9bbbb0; COLOR: #fff; PADDING-TOP: 12px
+}
+#home-content H2 {
+	LINE-HEIGHT: 20px; MARGIN-TOP: 23px; FONT-FAMILY: 'BernardMTCondensedRegular'; MARGIN-BOTTOM: 10px; LETTER-SPACING: 0px; COLOR: #2d6888; FONT-SIZE: 19px; FONT-WEIGHT: normal
+}
+#home-content P {
+	LINE-HEIGHT: 16px; MARGIN-TOP: 0px; WIDTH: 59%; FONT-FAMILY: Verdana, sans-serif; FLOAT: left; COLOR: #5a7e92; FONT-SIZE: 13px
+}
+#home-content {
+	PADDING-BOTTOM: 6px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; BACKGROUND: url(../images/stripe.png); PADDING-TOP: 6px
+}
+#home-content section {
+	BACKGROUND: white
+}
+#home-success:after {
+	DISPLAY: block; BACKGROUND: url(../images/dotted.png); HEIGHT: 6px
+}
+#home-connect {
+	PADDING-BOTTOM: 15px; MARGIN-TOP: 6px; WIDTH: 100%; DISPLAY: inline-block; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-TOP: 8px; opacity: 0.9
+}
+#touch {
+	POSITION: relative; TEXT-ALIGN: center; PADDING-BOTTOM: 15px; WIDTH: 100%; OVERFLOW: auto
+}
+#touch:after {
+	POSITION: absolute; BOTTOM: 0px; DISPLAY: block; BACKGROUND: url(../images/dotted.png); HEIGHT: 6px; RIGHT: 13px; LEFT: 13px
+}
+#home-download BLOCKQUOTE {
+	LINE-HEIGHT: 20px; MARGIN: 18px 0px 10px; WIDTH: 52%; FONT-FAMILY: verdana; FLOAT: left; COLOR: #00b1ac; FONT-SIZE: 13px; FONT-WEIGHT: bold
+}
+#home-download BLOCKQUOTE CITE {
+	FONT-STYLE: italic; DISPLAY: block; FONT-WEIGHT: normal; PADDING-TOP: 10px
+}
+#home-download SMALL {
+	TEXT-ALIGN: center; DISPLAY: block; FONT-FAMILY: 'mathletebulky'; COLOR: #afb01e; FONT-SIZE: 35px
+}
+#home-download H2 {
+	MARGIN-TOP: 5px; MARGIN-BOTTOM: 3px
+}
+.vid {
+	POSITION: relative; TOP: -23px; RIGHT: -9px
+}
+.home {
+	WIDTH: 41%; PADDING-TOP: 5px
+}
+#home-contact {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 130px; DISPLAY: inline-block; BACKGROUND: url(../images/phone.jpg) #f9f7f3 no-repeat left center; PADDING-TOP: 10px
+}
+#home-contact H3 {
+	MARGIN: 0px; FONT-FAMILY: 'blackjackregular'; COLOR: #13335a; FONT-SIZE: 31px; FONT-WEIGHT: normal; text-shadow: 0 2px 0px rgba(0,0,0,0.3)
+}
+.phone {
+	DISPLAY: block; FONT-FAMILY: verdana; FONT-SIZE: 16px; FONT-WEIGHT: bold; text-shadow: 0 2px 0px rgba(0,0,0,0.2)
+}
+#home-social {
+	TEXT-ALIGN: center; PADDING-TOP: 10px
+}
+#home-social H3 {
+	MARGIN: 0px 0px 15px; FONT-FAMILY: 'blackjackregular'; COLOR: #1dbab5; FONT-SIZE: 31px; FONT-WEIGHT: normal; text-shadow: 0 2px 0px rgba(0,0,0,0.2)
+}
+UL.social-med {
+	MARGIN: 0px auto; PADDING-LEFT: 30px; DISPLAY: inline-block; FLOAT: none
+}
+UL.social-med LI {
+	LIST-STYLE-TYPE: none; FLOAT: left
+}
+.ic-dim {
+	WIDTH: 39px; DISPLAY: block; BACKGROUND: url(../images/social-media.png) no-repeat; FLOAT: left; HEIGHT: 42px; CURSOR: pointer; MARGIN-RIGHT: 7px
+}
+.g-plus {
+	BACKGROUND-POSITION: 0px 0px
+}
+.twitter {
+	BACKGROUND-POSITION: -42px 0px
+}
+.fb {
+	BACKGROUND-POSITION: -83px 0px
+}
+.ytube {
+	BACKGROUND-POSITION: -126px 0px
+}
+.lkdn {
+	BACKGROUND-POSITION: -169px 0px
+}
+#footer {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 15px; TEXT-TRANSFORM: uppercase; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 'SteelfishRgRegular'; BACKGROUND: #74ac9f; COLOR: #fff; FONT-SIZE: 22px; PADDING-TOP: 15px
+}
+#footer A {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+.mbl {
+	DISPLAY: none
+}
+

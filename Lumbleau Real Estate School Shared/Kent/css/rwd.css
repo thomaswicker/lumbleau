@@ -1,0 +1,26 @@
+.dsktp {
+	DISPLAY: none !important
+}
+
+@media Unknown    
+{
+.dsktp {
+	DISPLAY: block !important
+}
+#wrapper {
+	WIDTH: 100%; BACKGROUND: url(../images/main-bg.jpg); FLOAT: left
+}
+.top-stripe {
+	WIDTH: 100%; MARGIN-BOTTOM: 10px; BACKGROUND: url(../images/top-stripe.png) repeat-x; HEIGHT: 12px
+}
+.tagline-container {
+	POSITION: absolute; TEXT-ALIGN: right; WIDTH: 66.66%; TOP: 0px
+}
+.tagline {
+	DISPLAY: inline-block
+}
+.login-container {
+	POSITION: absolute; WIDTH: 33.33%; TOP: 0px; RIGHT: 0px
+}
+
+}

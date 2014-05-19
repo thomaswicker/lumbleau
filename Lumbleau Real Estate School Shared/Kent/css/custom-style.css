@@ -1,0 +1,429 @@
+HTML {
+	MIN-HEIGHT: 100%
+}
+BODY {
+	MIN-HEIGHT: 100%
+}
+BODY {
+	LINE-HEIGHT: normal; MARGIN: 0px; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium; FONT-FAMILY: verdana; BACKGROUND: #fff; COLOR: #02213e; FONT-SIZE: 14px
+}
+DIV {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+P {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+SPAN {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+H1 {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+H2 {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+H3 {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+H4 {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+H5 {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+H6 {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+IMG {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+UL {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+OL {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+DL {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+LI {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+DT {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+DD {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+BLOCKQUOTE {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+PRE {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+FORM {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+FIELDSET {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+LABEL {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+A {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+IMG {
+	MAX-WIDTH: 100%; HEIGHT: auto; VERTICAL-ALIGN: middle
+}
+IMG {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+A IMG {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+:focus {
+	OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: 0px
+}
+H1 {
+	FONT-SIZE: 29px
+}
+H2 {
+	FONT-SIZE: 24px
+}
+H3 {
+	FONT-SIZE: 17px
+}
+H4 {
+	FONT-SIZE: 16px
+}
+H6 {
+	FONT-SIZE: 12px
+}
+H1 {
+	MARGIN-BOTTOM: 10px; FONT-WEIGHT: normal
+}
+H2 {
+	MARGIN-BOTTOM: 10px; FONT-WEIGHT: normal
+}
+H4 {
+	MARGIN-BOTTOM: 10px; FONT-WEIGHT: normal
+}
+H6 {
+	MARGIN-BOTTOM: 10px; FONT-WEIGHT: normal
+}
+P {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 26px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: verdana; COLOR: #02213e; FONT-SIZE: 14px; PADDING-TOP: 0px
+}
+A {
+	OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium; COLOR: #fff; TEXT-DECORATION: none !important
+}
+A:hover {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+A.active {
+	COLOR: #ffa113 !important
+}
+A:focus {
+	OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium
+}
+.none {
+	FLOAT: none
+}
+.clearfix:after {
+	DISPLAY: block; HEIGHT: 0px; VISIBILITY: hidden; CLEAR: both; CONTENT: "."
+}
+HTML .clearfix {
+	HEIGHT: 1%
+}
+.clearfix {
+	DISPLAY: block
+}
+.clr {
+	CLEAR: both
+}
+.m-lft {
+	MARGIN-RIGHT: 0px !important
+}
+.m-ryt {
+	MARGIN-RIGHT: 0px !important
+}
+.m-top {
+	MARGIN-TOP: 0px !important
+}
+.m-bot {
+	MARGIN-BOTTOM: 0px !important
+}
+.nav-p-lft {
+	PADDING-LEFT: 0px !important
+}
+.nav-p-ryt {
+	PADDING-RIGHT: 0px !important
+}
+.clr-bdr {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+.clr-bdr-ryt {
+	BORDER-RIGHT: medium none
+}
+.clr-bdr-bot {
+	BORDER-BOTTOM: medium none
+}
+.bdr-tp {
+	BORDER-TOP: medium none
+}
+.centered {
+	TEXT-ALIGN: center; MARGIN: 0px auto; FLOAT: none
+}
+.p-lft {
+	PADDING-LEFT: 0px !important
+}
+.p-ryt {
+	PADDING-RIGHT: 0px !important
+}
+.block {
+	DISPLAY: block
+}
+.navbar {
+	MIN-HEIGHT: 54px; border-radius: 0
+}
+.navbar-nav {
+	FLOAT: right
+}
+.navbar-inverse {
+	BORDER-BOTTOM: medium none; POSITION: relative; BORDER-LEFT: medium none; BACKGROUND: #74ac9f; BORDER-TOP: medium none; BORDER-RIGHT: medium none; box-shadow: 0 4px 0 rgba(0, 0, 0, 0.3)
+}
+.navbar-inverse:after {
+	POSITION: absolute; WIDTH: 49px; DISPLAY: block; BACKGROUND: url(../images/ribbon-corner.png) no-repeat; HEIGHT: 69px; TOP: 0px; RIGHT: -48px
+}
+.nav > LI {
+	POSITION: relative
+}
+.navbar-nav > LI > A {
+	PADDING-BOTTOM: 17px; TEXT-TRANSFORM: uppercase; FONT-FAMILY: "SteelfishRegular"; LETTER-SPACING: 1px; COLOR: #fff; FONT-SIZE: 22px; FONT-WEIGHT: normal; PADDING-TOP: 17px
+}
+.navbar-nav > LI > A:after {
+	POSITION: absolute; WIDTH: 2px; BACKGROUND: url(../images/nav-sep.png) no-repeat; HEIGHT: 22px; CONTENT: ""; RIGHT: 0px
+}
+.navbar-inverse .navbar-nav > LI > A:hover {
+	COLOR: #000
+}
+.navbar-inverse .navbar-nav > LI > A:focus {
+	COLOR: #000
+}
+.navbar-inverse .navbar-nav > .active > A {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.navbar-inverse .navbar-nav > .active > A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.navbar-inverse .navbar-nav > .active > A:focus {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.navbar-inverse .navbar-nav > LI > A {
+	COLOR: #fff
+}
+.navbar-brand {
+	POSITION: absolute; LINE-HEIGHT: 20px; FLOAT: left; TOP: -172px; LEFT: -87px
+}
+.carousel {
+	BOTTOM: 82px
+}
+.carousel-control {
+	DISPLAY: none
+}
+.carousel-indicators {
+	WIDTH: 23%; BOTTOM: -24px; BACKGROUND: url(../images/indicator-ribbon.png) no-repeat; HEIGHT: 82px; MARGIN-LEFT: inherit; RIGHT: 0px; MARGIN-RIGHT: -55px; PADDING-TOP: 34px; LEFT: inherit
+}
+.carousel-indicators LI {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; TEXT-INDENT: 0px; WIDTH: 30px; FONT-FAMILY: "MarketingScriptRegular"; BACKGROUND: #516d7c; HEIGHT: 30px; COLOR: #fff; FONT-SIZE: 24px; BORDER-TOP: medium none; BORDER-RIGHT: medium none; box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.3); border-radius: 20px
+}
+.carousel-indicators .active {
+	WIDTH: 30px; BACKGROUND: #5fbdbd; HEIGHT: 30px; box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.5)
+}
+#wrapper {
+	WIDTH: 100%; BACKGROUND: url(../images/main-bg.jpg); FLOAT: left
+}
+.top-stripe {
+	WIDTH: 100%; MARGIN-BOTTOM: 10px; BACKGROUND: url(../images/top-stripe.png) repeat-x; HEIGHT: 12px
+}
+.img-align {
+	TEXT-ALIGN: right; PADDING-TOP: 30px
+}
+.form-group {
+	MARGIN-BOTTOM: 5px
+}
+.form-control {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 4px; PADDING-LEFT: 12px; PADDING-RIGHT: 12px; FONT-FAMILY: arial; BACKGROUND: #fff; HEIGHT: 30px; COLOR: #8fa8b5; FONT-SIZE: 14px; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 4px; box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.2); border-radius: 6px
+}
+.login {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN-LEFT: -8px; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0px
+}
+A.note {
+	DISPLAY: block; FONT-FAMILY: verdana; MARGIN-BOTTOM: 15px; COLOR: #13335a; FONT-SIZE: 11px; TEXT-DECORATION: underline !important
+}
+.form-inline .form-group {
+	MARGIN-BOTTOM: 4px
+}
+.form-inline .form-group .form-control {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 12px; PADDING-RIGHT: 24px; PADDING-TOP: 4px
+}
+.banner {
+	MARGIN: 0px auto; WIDTH: 100%; MAX-WIDTH: 1162px; BACKGROUND: url(../images/banner-bg.png) no-repeat
+}
+.banner .container {
+	MAX-WIDTH: 932px
+}
+SPAN.ph {
+	TEXT-ALIGN: right; PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; FONT-FAMILY: "blackjackregular"; COLOR: #fff; FONT-SIZE: 33px; PADDING-TOP: 35px
+}
+SPAN.ph I {
+	FONT-STYLE: normal; FONT-FAMILY: verdana; FONT-SIZE: 18px
+}
+.white-sec {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; MARGIN-BOTTOM: 20px; BACKGROUND: #fff; PADDING-TOP: 10px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.3)
+}
+.home-success {
+	POSITION: relative; MARGIN: 20px 0px; BORDER-RIGHT: #b4c3cd 2px dotted
+}
+.home-success H1 {
+	LINE-HEIGHT: 25px; FONT-FAMILY: "BernardMTCondensedRegular"; MARGIN-BOTTOM: 15px; COLOR: #2d6888; FONT-SIZE: 26px
+}
+.home-success P {
+	LINE-HEIGHT: 20px; FONT-FAMILY: verdana; COLOR: #5a7e92; FONT-SIZE: 15px
+}
+.download H1 {
+	LINE-HEIGHT: 20px; FONT-FAMILY: "BernardMTCondensedRegular"; MARGIN-BOTTOM: 0px; LETTER-SPACING: 0.3px; COLOR: #2d6888; FONT-SIZE: 26px; FONT-WEIGHT: normal
+}
+.download SPAN {
+	POSITION: relative; MARGIN-TOP: -5px; FONT-FAMILY: "mathletebulky"; COLOR: #afb01e; FONT-SIZE: 23px; TOP: -13px
+}
+.download BLOCKQUOTE {
+	LINE-HEIGHT: 22px; MARGIN: 5px 0px 10px; FONT-FAMILY: verdana; FLOAT: left; COLOR: #00b1ac; FONT-SIZE: 15px; FONT-WEIGHT: bold
+}
+.download BLOCKQUOTE CITE {
+	FONT-STYLE: italic; DISPLAY: block; FONT-WEIGHT: normal; PADDING-TOP: 10px
+}
+.rel {
+	POSITION: relative
+}
+SPAN.tv-sec {
+	POSITION: absolute; DISPLAY: block; TOP: -72px; RIGHT: 8px
+}
+.salesperson {
+	BACKGROUND: url(../images/salesperson_pattern.png)
+}
+.box {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 15px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; PADDING-TOP: 15px; box-shadow: 3px 4px 0 rgba(0, 0, 0, 0.3); border-radius: 3px
+}
+.box A {
+	DISPLAY: block; FONT-FAMILY: "BernardMTCondensedRegular"; COLOR: #fff; FONT-SIZE: 17px; PADDING-TOP: 5px
+}
+.box A:hover {
+	COLOR: #000
+}
+SPAN.box-name {
+	DISPLAY: block; FONT-FAMILY: "blackjackregular"; COLOR: #fff; FONT-SIZE: 30px; PADDING-TOP: 20px
+}
+SPAN.box-desc {
+	LINE-HEIGHT: 1; TEXT-TRANSFORM: uppercase; DISPLAY: block; FONT-FAMILY: "mathletebulky"; MARGIN-BOTTOM: 19px; COLOR: #fff; FONT-SIZE: 29px
+}
+.lt-grn {
+	BACKGROUND: #7ba296
+}
+.drk-bl {
+	BACKGROUND: #5a7e92
+}
+.mrgTP8 {
+	MARGIN-TOP: 8px
+}
+.mortgage {
+	BACKGROUND: url(../images/mortgage_pattern.png)
+}
+.padBT20 {
+	PADDING-BOTTOM: 20px !important
+}
+.contact-sec {
+	MARGIN-TOP: 20px; BACKGROUND: url(../images/contact-bg.png)
+}
+UL.social {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 0px; PADDING-TOP: 10px
+}
+UL.social LI {
+	LINE-HEIGHT: 39px; LIST-STYLE-TYPE: none; FONT-FAMILY: "blackjackregular"; FLOAT: left; COLOR: #1dbab5; FONT-SIZE: 27px; LIST-STYLE-IMAGE: none
+}
+UL.social LI:first-child {
+	MARGIN-RIGHT: 17px
+}
+.ic-dim {
+	WIDTH: 39px; DISPLAY: block; BACKGROUND: url(../images/social-media.png) no-repeat; FLOAT: left; HEIGHT: 42px; CURSOR: pointer; MARGIN-RIGHT: 5px
+}
+.g-plus {
+	BACKGROUND-POSITION: 0px 0px
+}
+.twitter {
+	BACKGROUND-POSITION: -42px 0px
+}
+.fb {
+	BACKGROUND-POSITION: -83px 0px
+}
+.ytube {
+	BACKGROUND-POSITION: -126px 0px
+}
+.lkdn {
+	BACKGROUND-POSITION: -169px 0px
+}
+.in-touch {
+	PADDING-RIGHT: 80px; BACKGROUND: url(../images/phone-ic.jpg) no-repeat right center
+}
+.in-touch H2 {
+	LINE-HEIGHT: 60px; FONT-FAMILY: "blackjackregular"; MARGIN-BOTTOM: 0px; COLOR: #13335a; FONT-SIZE: 30px; text-shadow: 0 2px 0 rgba(0, 0, 0, 0.3)
+}
+.in-touch H2 SPAN {
+	FONT-FAMILY: "verdana"; COLOR: #13335a; FONT-SIZE: 17px; FONT-WEIGHT: bold; text-shadow: 0 2px 0 rgba(0, 0, 0, 0.3)
+}
+.left-bdr {
+	BORDER-LEFT: #b4c3cd 2px dotted
+}
+UL.footer-links {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 15px
+}
+UL.footer-links LI {
+	LINE-HEIGHT: 10px; LIST-STYLE-TYPE: none; FLOAT: left; LIST-STYLE-IMAGE: none; BORDER-RIGHT: #5a7e92 1px solid
+}
+UL.footer-links LI A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; FONT-FAMILY: verdana; COLOR: #5a7e92; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+UL.footer-links LI A:hover {
+	COLOR: #000
+}
+.inner-banner {
+	POSITION: relative; BOTTOM: 82px
+}
+.heading {
+	POSITION: relative; TEXT-ALIGN: center; PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: "blackjackregular"; BACKGROUND: #9bbbb0; COLOR: #fff; FONT-SIZE: 30px; TOP: -82px; PADDING-TOP: 10px; box-shadow: 2px 4px 2px rgba(0, 0, 0, 0.3)
+}
+.main-content {
+	POSITION: relative; BACKGROUND: #fff; TOP: -82px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3)
+}
+.content-sec {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 20px; PADDING-RIGHT: 0px; PADDING-TOP: 20px
+}
+.content-sec H1 {
+	FONT-FAMILY: "BernardMTCondensedRegular"; MARGIN-BOTTOM: 0px; COLOR: #2d6888; FONT-SIZE: 24px
+}
+.content-sec P {
+	LINE-HEIGHT: 22px; FONT-FAMILY: verdana; MARGIN-BOTTOM: 20px; COLOR: #5a7e92; FONT-SIZE: 14px
+}
+.content-sec P SPAN {
+	FONT-FAMILY: "BernardMTCondensedRegular"; COLOR: #2d6888; FONT-SIZE: 24px
+}
+.sidebar {
+	PADDING-BOTTOM: 20px; BACKGROUND: #e4ede3; PADDING-TOP: 20px
+}
+.mrgBT40 {
+	MARGIN-BOTTOM: 40px
+}
+.mrgBT20 {
+	MARGIN-BOTTOM: 20px
+}

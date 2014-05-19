@@ -1,0 +1,257 @@
+
+  .navbar {
+    border-radius: 0px;
+    height: 35px;
+
+   	@media only screen and (min-width:0px) and (max-width:767px) { 
+		width: 100%;
+	}
+  }
+
+ .navbar-toggle {
+	position: relative;
+	float: right;
+	padding: 9px 10px;
+	margin-top: 8px;
+	margin-right: 15px;
+	margin-bottom: 8px;
+	background-color: darken($salmon, 20%);
+	background-image: none;
+	border: 1px solid transparent;
+	@include border-radius(0px);
+
+	&:hover {
+		background-color: darken($salmon, 30%);		
+	}
+}
+.navbar-toggle:focus {
+	outline: none;
+}
+.navbar-toggle .icon-bar {
+	display: block;
+	width: 22px;
+	height: 2px;
+	border-radius: 1px;
+	border: 1px solid $white;
+}
+.navbar-toggle .icon-bar + .icon-bar {
+	margin-top: 4px;
+}
+
+.navbar-collapse {
+	width: 100%;
+	max-height: 340px;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin: -3px 0px 0px 0px;
+	overflow-x: visible;
+	-webkit-overflow-scrolling: touch;
+	border-top: 1px solid transparent;
+	box-shadow: none;
+	z-index: 100;
+
+	@media only screen and (min-width:0px) and (max-width:767px) {
+		z-index: 20;
+		margin: 13px -20px 0px 0px;
+		@include box-shadow($charcoal 0px 3px 5px); 
+	}
+}
+
+.navbar-nav {
+	margin: 0px 0px 0px 0px;
+	position: relative;
+	z-index: 12;
+
+	@media only screen and (min-width:0px) and (max-width:767px) {
+		width: 100% !important;
+		margin: 0px 0px 0px 0px;
+		padding: 0px 20px 10px 20px;
+		background-color: rgba(116, 172, 159, 0.90);
+		z-index: 20;
+		font-size: 1.5em;
+
+		.socialMediaLinks_twBTN {
+			border-bottom: none;
+		}
+
+		li {
+			width: 100%;
+			float: left;
+			clear: both;
+			border-right: none;
+			border-bottom: 1px solid $white;
+		}
+
+		li a {
+			width: 100%;
+			float: left;
+			clear: both;
+		}
+	}
+}
+
+.carousel-inner {
+	padding: 0px;
+
+	@media only screen and (min-width:0px) and (max-width:767px) {
+		.item img {
+			width: 100%;
+		}
+	}
+}
+
+.carousel-indicators {
+	position: absolute;
+	bottom: -42px;
+	left: -20px;
+	z-index: 15;
+	padding: 15px 0px 10px 0px;
+	margin: 0px;
+	width: 130px;
+	height: 60px;
+	text-align: center;
+	list-style: none;
+	background-image: url("../img/indicatorRibbon.png");
+	background-repeat: no-repeat;
+}
+
+.carousel-indicators li {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin: 1px;
+	text-indent: -999px;
+	cursor: pointer;
+	background-color: #000 \9;
+	background-color: rgba(0, 0, 0, 0);
+	border: 1px solid #fff;
+	border-radius: 10px;
+}
+
+.carousel-indicators .active {
+	width: 12px;
+	height: 12px;
+	margin: 0;
+	background-color: #fff;
+}
+
+.homeContainerBody {
+
+	@media only screen and (min-width:993px) and (max-width:1200px) {
+	}
+
+	@media only screen and (min-width:768px) and (max-width:992px) {
+	}
+
+	@media only screen and (min-width:0px) and (max-width:767px) {
+		display: none;
+	}
+}
+
+.carousel-caption {
+	text-align: right;
+	margin-bottom: -10px;
+
+	@media only screen and (min-width:993px) and (max-width:1200px) {
+		margin-bottom: 0px;
+	}
+
+	@media only screen and (min-width:768px) and (max-width:992px) {
+		margin-bottom: -20px;
+	}
+}
+
+.btn {
+  padding: 6px 5px !important;
+}
+
+.btn-info {
+	@include border-radius(0px);
+	font-weight: 300;
+	font-size: .9em;
+	text-transform: uppercase;
+}
+
+.btn-default {
+	float: left;
+	width: 40%;
+	background-color: $salmon;
+	padding: 5px 5px 5px 5px;
+	font-family: $lato;
+	font-size: .9em;
+	font-weight: 400;
+	@include border-radius(0px);
+	color: $white;
+	border: 0px;
+
+	&:hover {
+		color: $white;
+		background-color: darken($salmon, 15%);
+	}
+}
+
+.btn-warning {
+	float: left;
+	width: 40%;
+	background-color: $lightgray;
+	padding: 5px 5px 5px 5px;
+	font-family: $lato;
+	font-size: .9em;
+	font-weight: 400;
+	@include border-radius(0px);
+	color: $white;
+	border: 0px;
+	margin: 0px 0px 0px 10px;
+
+	&:hover {
+		background-color: darken($lightgray, 20%);
+	}
+}
+
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+	background-color: darken($salmon, 15%) !important;
+	border-color: #428bca;
+}
+
+.dropdown-menu {
+	padding: 0px;
+}
+
+.dropdown-menu li {
+	text-align: left;
+}
+
+.dropdown-menu li:last-child {
+	border-bottom: none;
+}
+
+.dropdown-menu li a {
+	width: 100%;
+	color: $white;
+	padding: 10px 20px 10px 20px;
+	font-size: .9em;
+	background-color: darken($mediumgreen, 10%);
+
+	i {
+		color: darken($mediumgreen,30%);
+		font-size: 1.3em;
+		font-weight: 600;
+		padding: 0px 10px 0px 0px;
+	}
+
+	&:hover {
+		&:hover {
+			background-color: darken($salmon, 15%);
+			@include transition(background-color 0.1s ease-in);
+			color: $white !important;
+		}
+	}
+}
+
+.noBorder {
+	border-bottom: none !important;
+}
+
+

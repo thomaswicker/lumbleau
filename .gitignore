@@ -1,0 +1,9 @@
+# Ignore files
+*.json
+*.codekit
+*.rb
+*.ai
+*.psd
+*.zip
+*.eps
+*.config

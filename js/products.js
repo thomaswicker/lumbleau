@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".supportBlockQuestions").click(function(t){$(this).next("p").slideToggle("fast"),t.preventDefault()}),$("#box").keyup(function(){var t=$(this).val().toLowerCase();""==t?$(".supportBlockQuestions").show():$(".supportBlockQuestions").each(function(){var o=$(this).text().toLowerCase();o.indexOf(t)>=0?$(this).show():$(this).hide()})})});

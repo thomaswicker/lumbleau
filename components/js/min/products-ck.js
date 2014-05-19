@@ -1,0 +1,1 @@
+$("#faqSearchInput").keyup(function(){var e=$(this).val().toLowerCase();""===e?$("#faqSearchResults > li > h4").show():$("#faqSearchResults > li > h4").each(function(){var h=$(this).text().toLowerCase();h.indexOf(e)>=0?$(this).show():$(this).hide()})});
