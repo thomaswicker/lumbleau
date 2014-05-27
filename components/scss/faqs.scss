@@ -6,10 +6,13 @@
 	background-image: url("../img/vintage_typewriter_fixed.jpg");
 	background-repeat: norepeat;
 	background-size: cover;
-	background-position: -170px -130px;
+	background-position: -30px -130px;
 
 	@media only screen and (min-width:0px) and (max-width:1200px) { 
-		background-position: -140px -50px;
+		background-position: -100px -50px;
+		background-repeat: no-repeat;
+		height: 140px;
+		background-size: 160%;
 	}
 }
 
@@ -28,6 +31,7 @@
 	@media only screen and (min-width:0px) and (max-width:767px) {
 		font-size: 1.7em;
 		background-color: #294B7E;
+		height: 5px;
 
 		span {
 			display: none;
@@ -72,6 +76,11 @@
 		width: 300px;
 		padding: 9px 0px 5px 15px;
 		font-family: $regular;
+
+		@media only screen and (min-width:0px) and (max-width:767px) {
+			width: 250px;
+		}
+
 	}
 }
 
@@ -199,61 +208,5 @@
 		margin: -25px 0px 0px 0px;
 		font-family: $regular;
 		font-size: .9em;
-	}
-}
-
-.modal-title {
-	font-size: 1.4em;
-	font-family: "Bernard";
-	padding-left: 20px;
-	font-weight: 600;
-	color: $white;
-}
-
-.modal-header {
-	background-color: $mediumblue;
-	color: $white;
-
-	button {
-		color: $white !important;
-		font-size: 1.6em !important;
-	}
-}
-
-.modal-footer {
-	background-color: #cccccc;
-}
-
-.modal-dialog {
-	@include border-radius(0px);
-}
-
-#refundPolicy {
-	text-align: left;
-
-	span {
-		display: block;
-		font-weight: 600;
-		font-size: 1em;
-		padding: 10px 0px 10px 15px;
-		line-height: 1.3em;
-		font-family: $regular;
-	}
-
-	p {
-		display: block;
-		font-weight: 300;
-		font-size: .9em;
-		padding: 0px 0px 10px 15px;
-		line-height: 1.2em;
-		font-family: $regular;
-	}
-
-	button {
-		float: right;
-		font-family: $lato;
-		font-weight: 600;
-		font-size: .95em;
-		text-transform: uppercase;
 	}
 }

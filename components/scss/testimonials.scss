@@ -12,6 +12,14 @@
 		margin-top: 4%;
 		text-align: center;
 
+		@media only screen and (min-width:993px) and (max-width:1200px) { 
+			margin-top: 7%;
+		}
+
+		@media only screen and (min-width:768px) and (max-width:992px) { 
+			margin-top: 7%;
+		}
+
 		@media only screen and (min-width:601px) and (max-width:767px) { 
 			margin-top: 11%;
 		}
@@ -28,12 +36,12 @@
 
 	@media only screen and (min-width:993px) and (max-width:1200px) { 
 		background-size: 100%;
-		background-position: 0 -220px;
+		background-position: 0 -90px;
 	}
 
 	@media only screen and (min-width:768px) and (max-width:992px) { 
 		background-size: 100%;
-		background-position: 0 -170px;
+		background-position: 0px 0px;
 	}
 
 	@media only screen and (min-width:501px) and (max-width:767px) { 

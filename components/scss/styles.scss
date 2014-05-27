@@ -54,7 +54,9 @@ $lato: 'Lato', sans-serif;
 @import "custombootstrap";
 @import "about";
 @import "testimonials";
-@import "support";
+@import "faqs";
+@import "refunds";
+@import "contact";
 @import "textbooks";
 @import "dvdsandcds";
 @import "continuingeducation";
@@ -149,14 +151,20 @@ body {
 	width: 100%;
 	height: 55px;
 	background-color: $mediumgreen;
-	color: lighten($lime, 10%);
+	color: $white;
 	font-family: "Mathlete";
 	font-size: 2.5em;
 	font-weight: 100;
 	text-align: right;
-	padding: 5px 30px 0px 0px;
+	padding: 3px 30px 0px 0px;
 	border-top: 2px solid $white;
 	border-bottom: 2px solid $white;
+
+	span {
+		color: lighten($lime, 10%);
+		font-family: "Blackjack";
+		font-size: .8em;
+	}
 
 	@media only screen and (min-width:993px) and (max-width:1200px) {
 		font-family: "Mathlete";
@@ -175,6 +183,7 @@ body {
 		padding: 14px 20px 0px 0px;
 		font-size: 2em;
 		text-align: right;
+		color: $white !important;
 	}
 
 	@media only screen and (min-width:0px) and (max-width:600px) {
@@ -182,12 +191,13 @@ body {
 		padding: 14px 0px 0px 0px;
 		font-size: 1.6em;
 		text-align: center;
-		color: $white;
+		color: $white !important;
 		border-bottom: 2px solid $white;
+
+		span {
+			color: $white;
+		}	
 		
-		span {
-			display: none;
-		}
 	}
 }
 
@@ -195,7 +205,7 @@ body {
 	float: left;
 	width: 100%;
 	height: 55px;
-	padding: 15px 20px 10px 20px;
+	padding: 12px 20px 10px 20px;
 	background-color: darken($mediumblue, 10%);
 	color: $white;
 	border-top: 2px solid $white;
@@ -204,42 +214,13 @@ body {
 	font-family: "Blackjack";
 	font-weight: 100;
 
-	@media only screen and (min-width:0px) and (max-width:767px) {
-		height: 35px !important;
-		font-size: 1em !important;
-		padding: 8px 3px 5px 3px !important;
-		background-color: #294B7E;
-
-		span {
-			display: none;
-		}
+	@media only screen and (min-width:768px) and (max-width:992px) {
+		font-size: 1.6em;
+		text-align: right;
 	}
-}
-
-.homeContainerBody {
-	float: left;
-	width: 100%;
 
 	@media only screen and (min-width:0px) and (max-width:767px) {
-		height: 155px;
-	}
-}
-
-.homeContainerTitle {
-	float: left;
-	width: 100%;
-	height: 55px;
-	padding: 15px 20px 10px 20px;
-	background-color: darken($mediumblue, 10%);
-	color: $white;
-	border-top: 2px solid $white;
-	border-bottom: 2px solid $white;
-	font-size: 1.9em;
-	font-family: "Blackjack";
-	font-weight: 100;
-
-	@media only screen and (min-width:0px) and (max-width:767px) {
-		font-size: 1.7em;
+		font-size: 1.3em;
 		padding: 15px 20px 10px 20px;
 		background-color: #294B7E;
 
@@ -445,6 +426,409 @@ body {
 	}
 }
 
+.homeContainerRightText_satisfaction_1 {
+	float: right;
+	clear: both;
+	text-transform: uppercase;
+	font-family: 'Patua One', cursive;
+	font-size: 1em;
+	color: $darkblue;
+	text-shadow: none;	
+	margin-right: -40px;
+
+	// iPad Horizontal
+	@media only screen and (min-width:993px) and (max-width:1200px) {
+		font-size: 1em;
+	}
+
+	// iPad Vertical
+	@media only screen and (min-width:768px) and (max-width:992px) {
+		font-size: 1em;
+	}
+}
+
+.homeContainerRightText_satisfaction_2 {
+	float: right;
+	clear: both;
+	width: 130%;
+	font-family: "Blackjack";
+	font-size: .5em;
+	color: $darkblue;
+	margin-right: -40px;
+	text-shadow: none;
+	text-transform: initial;
+
+	@media only screen and (min-width:1201px) and (max-width:1400px) {
+		font-size: .45em;
+	}
+
+	// iPad Horizontal
+	@media only screen and (min-width:993px) and (max-width:1200px) {
+		font-size: .5em;
+	}
+
+	// iPad Vertical
+	@media only screen and (min-width:768px) and (max-width:992px) {
+		font-size: .5em;
+	}
+}
+
+.homeContainerRightText_satisfaction_3 {
+	float: right;
+	clear: both;
+	text-transform: uppercase;
+	font-family: "Mathlete";
+	font-size: .65em;
+	color: $darkblue;
+	margin-right: -40px;
+	text-shadow: none;
+
+	// iPad Vertical
+	@media only screen and (min-width:993px) and (max-width:1200px) {
+		font-size: .4em;
+	}
+
+	// iPad Vertical
+	@media only screen and (min-width:768px) and (max-width:992px) {
+		font-size: .45em;
+	}
+}
+
+.homeContainerRightText_satisfaction_4 {
+	float: right;
+	clear: both;
+	text-transform: uppercase;
+	font-family: $regular;
+	font-size: .25em;
+	font-style: italic;
+	color: $darkblue;
+	text-shadow: none;	
+	padding: 10px 0px 0px 0px;
+	margin-right: -40px;
+
+	// iPad Vertical
+	@media only screen and (min-width:993px) and (max-width:1200px) {
+		font-size: .2em;
+	}
+
+	// iPad Vertical
+	@media only screen and (min-width:768px) and (max-width:992px) {
+		font-size: .2em;
+	}
+}
+
+.homeContainerRightText_rocket_1 {
+	float: right;
+	clear: both;
+	width: 130%;
+	text-transform: uppercase;
+	font-family: "Mathlete";
+	font-size: 1em;
+	color: $darkblue;
+	margin-right: -55px;
+	margin-bottom: -15px;
+	text-shadow: none;
+
+	// iPad Horizontal
+	@media only screen and (min-width:993px) and (max-width:1200px) {
+		font-size: .45em;
+	}
+
+	// iPad Vertical
+	@media only screen and (min-width:768px) and (max-width:992px) {
+		font-size: .4em;
+	}
+
+	span {
+		font-family: "Blackjack";
+		font-size: 1em;
+		text-transform: initial;
+		color: $darkblue;
+		text-shadow: none;
+
+		// iPad Vertical
+		@media only screen and (min-width:768px) and (max-width:992px) {
+			font-size: 1.3em;
+		}
+	}
+}
+
+.homeContainerRightText_rocket_2 {
+	float: right;
+	clear: both;
+	width: 140%;
+	font-family: $regular;
+	font-size: .33em;
+	color: $darkblue;
+	text-shadow: none;	
+	text-transform: uppercase;
+	padding: 8px 0px 7px 0px;
+	margin-right: -55px;
+	margin-top: 15px;
+
+	// iPad Horizontal
+	@media only screen and (min-width:993px) and (max-width:1200px) {
+		font-size: .25em;
+		padding: 8px 0px 1px 0px;
+	}
+
+	// iPad Vertical
+	@media only screen and (min-width:768px) and (max-width:992px) {
+		font-size: .25em;
+		padding: 8px 0px 1px 0px;
+	}
+}
+
+.homeContainerRightText_rocket_3 {
+	float: right;
+	width: 130%;
+	clear: both;
+	font-family: "Blackjack";
+	font-size: .5em;
+	color: $darkblue;
+	text-shadow: none;	
+	margin-right: -55px;
+	margin-top: 5px;
+	text-transform: initial;
+
+	// iPad Horizontal
+	@media only screen and (min-width:993px) and (max-width:1200px) {
+		font-size: .6em;
+	}
+
+	// iPad Vertical
+	@media only screen and (min-width:768px) and (max-width:992px) {
+		font-size: .6em;
+		float: right;
+		clear: both;
+		display: block;
+		width: 100%;
+	}
+
+	span {
+		font-family: "Mathlete";
+		font-size: 1.1em;
+		color: $darkblue;
+		text-shadow: none;
+
+		// iPad Horizontal
+		@media only screen and (min-width:993px) and (max-width:1200px) {
+			font-size: .8em;
+			float: right;
+		}
+
+		// iPad Vertical
+		@media only screen and (min-width:768px) and (max-width:992px) {
+			font-size: .8em;
+			float: right;
+			clear: both;
+			display: block;
+			width: 100%;
+		}
+	}
+}
+
+
+.homeContainerRightText_liveOperators_1 {
+	float: right;
+	text-transform: uppercase;
+	font-family: 'Patua One', cursive;
+	font-size: .5em;
+	font-weight: 100;
+	margin-right: -40px;
+	color: $darkblue;
+	text-shadow: none;
+
+	// iPad Horizontal
+	@media only screen and (min-width:993px) and (max-width:1200px) {
+		font-size: .5em;
+	}
+
+	// iPad Vertical
+	@media only screen and (min-width:768px) and (max-width:992px) {
+		font-size: .5em;
+	}
+}
+
+.homeContainerRightText_liveOperators_2 {
+	float: right;
+	clear: both;
+	text-transform: uppercase;
+	font-family: $regular;
+	font-size: .6em;
+	color: $darkblue;
+	padding: 5px 0px 4px 0px;
+	margin-right: -40px;
+	text-shadow: none;
+
+	// iPad Horizontal
+	@media only screen and (min-width:993px) and (max-width:1200px) {
+		font-size: .5em;
+	}
+
+	// iPad Vertical
+	@media only screen and (min-width:768px) and (max-width:992px) {
+		font-size: .5em;
+	}
+}
+
+.homeContainerRightText_liveOperators_3 {
+	float: right;
+	clear: both;
+	font-family: "Blackjack";
+	font-size: .7em;
+	color: $darkblue;
+	margin-right: -40px;
+	text-transform: initial;
+	text-shadow: none;
+
+	// iPad Horizontal
+	@media only screen and (min-width:993px) and (max-width:1200px) {
+		font-size: .6em;
+	}
+
+	// iPad Vertical
+	@media only screen and (min-width:768px) and (max-width:992px) {
+		font-size: .6em;
+	}
+}
+
+.homeContainerRightText_liveOperators_4 {
+	float: right;
+	clear: both;
+	text-transform: uppercase;
+	font-family: "Mathlete";
+	font-size: .8em;
+	color: $darkblue;
+	margin-right: -40px;
+	text-shadow: none;
+
+	// iPad Horizontal
+	@media only screen and (min-width:993px) and (max-width:1200px) {
+		font-size: .5em;
+	}
+
+	// iPad Vertical
+	@media only screen and (min-width:768px) and (max-width:992px) {
+		font-size: .5em;
+	}
+}
+
+.homeContainerBody {
+	float: left;
+	width: 100%;
+	height: 260px;
+
+	@media only screen and (min-width:0px) and (max-width:767px) {
+	}
+}
+
+.carosuelBodyLeft {
+	float: left;
+	width: 70%;
+	height: 260px;
+	background-image: url("../img/girlBanner.jpg");
+	background-size: cover;
+	background-position: 0px 0px;
+	position: relative;
+	top: 0px;
+
+	@media only screen and (min-width:0px) and (max-width:767px) {
+		width: 100%;
+		background-position: -40px 0px;
+	}
+}
+
+.carosuelBodyLeft2 {
+	float: left;
+	width: 70%;
+	height: 260px;
+	background-image: url("../img/rocketShip_2.jpg");
+	background-size: cover;
+	background-position: 0px 0px;
+	position: relative;
+	top: 0px;
+
+	@media only screen and (min-width:0px) and (max-width:767px) {
+		width: 100%;
+		background-position: -40px 0px;
+	}
+}
+
+.carosuelBodyLeft3 {
+	float: left;
+	width: 70%;
+	height: 260px;
+	background-image: url("../img/operatorBanner.jpg");
+	background-size: cover;
+	background-position: 0px 0px;
+	position: relative;
+	top: 0px;
+
+	@media only screen and (min-width:0px) and (max-width:767px) {
+		width: 100%;
+		background-position: -40px 0px;
+	}
+}
+
+.carosuelBodyRight {
+	float: left;
+	width: 40%;
+	height: 265px;
+	position: absolute;
+	background-image: url(../img/headerContainerRight.png);
+	background-repeat: no-repeat;
+	background-position: -10px -25px;
+	font-size: 3.5em;
+	font-family: "Mathlete";
+	text-transform: uppercase;
+	text-align: right;
+	padding: 30px 50px 0px 0px;
+	right: 0px;
+	font-weight: 500;
+
+	@media only screen and (min-width:768px) and (max-width:992px) {
+		width: 47%;
+	}
+
+	@media only screen and (min-width:0px) and (max-width:767px) {
+		display: none;
+	}
+}
+
+.carousel-caption {
+	position: absolute;
+	text-align: right;
+	margin: -40px 0px 0px 0px;
+	top: 30%;
+
+	@media only screen and (min-width:993px) and (max-width:1200px) {
+		margin-bottom: 0px;
+	}
+
+	@media only screen and (min-width:768px) and (max-width:992px) {
+		margin-bottom: -20px;
+	}
+}
+
+.carousel-caption2 {
+	position: absolute;
+	text-align: right;
+	margin: -40px 0px 0px 0px;
+	top: 30%;
+	right: 90px;
+
+	@media only screen and (min-width:993px) and (max-width:1200px) {
+		margin-bottom: 0px;
+		top: 35%;
+	}
+
+	@media only screen and (min-width:768px) and (max-width:992px) {
+		margin-bottom: -20px;
+		top: 35%;
+	}
+}
+
 footer {
 	float: left;
 	width: 100%;
@@ -475,272 +859,5 @@ footer {
 
 	@media only screen and (min-width:0px) and (max-width:992px) {
 		display: none;
-	}
-}
-
-.homeContainerRightText_satisfaction_1 {
-	float: right;
-	clear: both;
-	text-transform: uppercase;
-	font-family: 'Patua One', cursive;
-	font-size: 3.9em;
-	color: $white;
-	margin-right: -40px;
-
-	// iPad Horizontal
-	@media only screen and (min-width:993px) and (max-width:1200px) {
-		font-size: 2em;
-	}
-
-	// iPad Vertical
-	@media only screen and (min-width:768px) and (max-width:992px) {
-		font-size: 2em;
-	}
-}
-
-.homeContainerRightText_satisfaction_2 {
-	float: right;
-	clear: both;
-	font-family: "Blackjack";
-	font-size: 2.8em;
-	color: $darkblue;
-	margin-right: -40px;
-	text-shadow: none;
-
-	// iPad Horizontal
-	@media only screen and (min-width:993px) and (max-width:1200px) {
-		font-size: 2em;
-	}
-
-	// iPad Vertical
-	@media only screen and (min-width:768px) and (max-width:992px) {
-		font-size: 2em;
-	}
-}
-
-.homeContainerRightText_satisfaction_3 {
-	float: right;
-	clear: both;
-	text-transform: uppercase;
-	font-family: "Mathlete";
-	font-size: 2.3em;
-	color: darken($mediumtan, 30%);
-	margin-right: -40px;
-	text-shadow: none;
-
-	// iPad Vertical
-	@media only screen and (min-width:993px) and (max-width:1200px) {
-		font-size: 1.2em;
-	}
-
-	// iPad Vertical
-	@media only screen and (min-width:768px) and (max-width:992px) {
-		font-size: 1.2em;
-	}
-}
-
-.homeContainerRightText_satisfaction_4 {
-	float: right;
-	clear: both;
-	text-transform: uppercase;
-	font-family: $regular;
-	font-size: .85em;
-	font-style: italic;
-	color: $mediumblue;
-	padding: 10px 0px 0px 0px;
-	margin-right: -40px;
-	text-shadow: none;
-}
-
-.homeContainerRightText_rocket_1 {
-	float: right;
-	clear: both;
-	width: 100%;
-	text-transform: uppercase;
-	font-family: "Mathlete";
-	font-size: 2.7em;
-	color: $white;
-	margin-right: -40px;
-	margin-bottom: -10px;
-
-	// iPad Horizontal
-	@media only screen and (min-width:993px) and (max-width:1200px) {
-		font-size: 2em;
-	}
-
-	// iPad Vertical
-	@media only screen and (min-width:768px) and (max-width:992px) {
-		font-size: 1.4em;
-	}
-
-	span {
-		font-family: "Blackjack";
-		font-size: 1.1em;
-		text-transform: initial;
-		color: $salmon;
-
-		// iPad Vertical
-		@media only screen and (min-width:768px) and (max-width:992px) {
-			font-size: 1.3em;
-		}
-	}
-}
-
-.homeContainerRightText_rocket_2 {
-	float: right;
-	clear: both;
-	width: 100%;
-	font-family: $regular;
-	font-size: 1em;
-	color: $white;
-	text-transform: uppercase;
-	padding: 8px 0px 7px 0px;
-	margin-right: -40px;
-
-	// iPad Horizontal
-	@media only screen and (min-width:993px) and (max-width:1200px) {
-		font-size: 1em;
-		padding: 8px 0px 1px 0px;
-	}
-
-	// iPad Vertical
-	@media only screen and (min-width:768px) and (max-width:992px) {
-		font-size: .85em;
-		padding: 8px 0px 1px 0px;
-	}
-}
-
-.homeContainerRightText_rocket_3 {
-	float: right;
-	width: 100%;
-	clear: both;
-	font-family: "Blackjack";
-	font-size: 2.8em;
-	color: $mediumgreen;
-	margin-right: -40px;
-
-	// iPad Horizontal
-	@media only screen and (min-width:993px) and (max-width:1200px) {
-		font-size: 2em;
-	}
-
-	// iPad Vertical
-	@media only screen and (min-width:768px) and (max-width:992px) {
-		font-size: 2em;
-	}
-
-	span {
-		font-family: "Mathlete";
-		font-size: 1em;
-		color: $white;
-
-		// iPad Vertical
-		@media only screen and (min-width:768px) and (max-width:992px) {
-			font-size: .9em;
-		}
-
-		.small {
-			position: absolute;
-			font-size: .5em;
-		}
-	}
-}
-
-.homeContainerRightText_rocket_4 {
-	float: right;
-	width: 100%;
-	font-family: "Bernard";
-	font-size: .9em;
-	color: $white;
-	margin-right: -40px;
-
-	// iPad Horizontal
-	@media only screen and (min-width:993px) and (max-width:1200px) {
-		font-size: .9em;
-	}
-
-	// iPad Vertical
-	@media only screen and (min-width:768px) and (max-width:992px) {
-		font-size: .8em;
-	}
-}
-
-.homeContainerRightText_liveOperators_1 {
-	float: right;
-	text-transform: uppercase;
-	font-family: 'Patua One', cursive;
-	font-size: 2.1em;
-	font-weight: 100;
-	color: $lightblue;
-	margin-right: -40px;
-
-	// iPad Horizontal
-	@media only screen and (min-width:993px) and (max-width:1200px) {
-		font-size: 1em;
-	}
-
-	// iPad Vertical
-	@media only screen and (min-width:768px) and (max-width:992px) {
-		font-size: 1.3em;
-	}
-}
-
-.homeContainerRightText_liveOperators_2 {
-	float: right;
-	clear: both;
-	text-transform: uppercase;
-	font-family: $regular;
-	font-size: 1.1em;
-	color: $white;
-	padding: 5px 0px 4px 0px;
-	margin-right: -40px;
-
-	// iPad Horizontal
-	@media only screen and (min-width:993px) and (max-width:1200px) {
-		font-size: .8em;
-	}
-
-	// iPad Vertical
-	@media only screen and (min-width:768px) and (max-width:992px) {
-		font-size: .8em;
-	}
-}
-
-.homeContainerRightText_liveOperators_3 {
-	float: right;
-	clear: both;
-	font-family: "Blackjack";
-	font-size: 2.9em;
-	color: $salmon;
-	margin-right: -40px;
-
-	// iPad Horizontal
-	@media only screen and (min-width:993px) and (max-width:1200px) {
-		font-size: 2em;
-	}
-
-	// iPad Vertical
-	@media only screen and (min-width:768px) and (max-width:992px) {
-		font-size: 1.9em;
-	}
-}
-
-.homeContainerRightText_liveOperators_4 {
-	float: right;
-	clear: both;
-	text-transform: uppercase;
-	font-family: "Mathlete";
-	font-size: 3em;
-	color: $white;
-	margin-right: -40px;
-
-	// iPad Horizontal
-	@media only screen and (min-width:993px) and (max-width:1200px) {
-		font-size: 2.3em;
-	}
-
-	// iPad Vertical
-	@media only screen and (min-width:768px) and (max-width:992px) {
-		font-size: 1.6em;
 	}
 }
