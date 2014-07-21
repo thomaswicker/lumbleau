@@ -1,0 +1,1378 @@
+.classWizardBody {
+	float: left;
+	width: 100%;
+	height: auto;
+	background-color: $lightblue;
+	text-align: left;
+	padding: 0px 20px 20px 20px;
+
+	@media only screen and (min-width:0px) and (max-width:767px) {
+		padding: 0px 0px 20px 0px;
+	}
+
+	h1 {
+		float: left;
+		width: 50%;
+		font-size: 1.3em;
+		color: $teal;
+		font-family: $lato;
+		font-weight: 300;
+		margin: 40px 0px 0px 40px;
+		padding: 0px 0px 9px 0px;
+		border-bottom: 2px solid $teal;
+
+		@media only screen and (min-width:0px) and (max-width:767px) {
+			width: 80%;
+			margin: 40px 20px 0px 20px;
+		}
+	}
+}
+
+.classWizardBodyContainer {
+	float: left;
+	width: 100%;
+	background-color: $white;
+	@include box-shadow($charcoal 0px 0px 4px);
+	margin: 20px 0px 0px 0px;
+}
+
+.classesHomeBodyContainer {
+	float: left;
+	width: 100%;
+	background-color: $white;
+	@include box-shadow($charcoal 0px 0px 4px);
+	margin: 20px 0px 0px 0px;
+
+	@media only screen and (min-width:0px) and (max-width:767px) {
+		padding: 0px 20px 0px 0px;
+	}
+}
+
+.pageHeader {
+	float: left;
+	width: 100%;
+	height: auto;
+	background-color: $teal;
+	color: $white;
+	font-family: "Mathlete";
+	font-size: 2.5em;
+	font-weight: 100;
+	padding: 2px 0px 7px 0px;
+	text-align: center;
+	border-bottom: 2px solid $white;
+
+	@media only screen and (min-width:0px) and (max-width:767px) {
+		font-size: 1.3em;
+		font-family: $regular;
+		font-weight: bold;
+		padding: 5px 0px 7px 0px;
+	}
+}
+
+.classWizardBody_cart {
+	width: 305px;
+	float: right;
+	color: $darkblue;
+	font-family: $regular;
+	text-align: center;
+	margin: -42px -25px 0px 0px;
+
+	@media only screen and (min-width: 768px) and (max-width: 850px) {
+		margin: -42px -90px 0px 0px;
+	}
+
+	@media only screen and (min-width: 0px) and (max-width: 767px) {
+		width: 100%;
+		margin: 0px 0px 0px 0px;
+		border-bottom: 1px solid $salmon;
+		background-color: $white;
+		text-align: right;
+	}
+
+	p {
+		float: left;
+		width: 30px;
+		height: 30px;
+		margin: 0px 0px 0px 5px;
+		padding: 5px 2px 5px 0px;		
+		background-color: $salmon;
+		color: $white;
+		text-align: center;
+	}
+
+	div {
+		float: left;
+		width: 200px;
+		height: 30px;
+		padding: 8px 0px 5px 8px;
+		text-align: left;
+		font-family: $regular;
+		font-size: .95em;
+		background-color: $white;	
+	}
+
+	a {
+		color: $white;
+
+		i {
+			margin: 0px 10px 0px 0px;
+			font-size: 1.2em;
+		}
+	}
+}
+
+.formChoices1 {
+	float: left;
+	width: 100%;
+	padding: 0px 30px 40px 40px;
+	margin: 10px 0px 0px 0px;
+	font-family: $regular;
+	font-size: .95em;
+	line-height: 1.3em;
+
+	@media only screen and (min-width:0px) and (max-width:767px) {
+		padding: 0px 20px 40px 20px;
+	}
+
+	p {
+		margin: 9px 0px 0px 0px;
+		padding: 7px 0px 14px 0px;
+		border-bottom: 1px solid $lightgray;
+	}
+
+	p:last-child {
+		border-bottom: 0px;
+	}
+
+	input {
+		margin: 0px 11px 0px 0px;
+	}
+}
+
+.classWizardFooter {
+	float: left;
+	width: 100%;
+	height: auto;
+	text-align: right;
+	background-color: lighten($lightgray, 5%);
+	margin: 0px 0px 0px 0px;
+	padding: 8px 15px 8px 0px;
+	border-top: 2px solid darken($lightgray, 9%);
+}
+
+.btn-success {
+	float: right;
+	width: auto;
+	background-color: darken($green, 5%);
+	color: $white;
+	@include border-radius(0px);
+	border: 0px;
+	font-family: $regular;
+	font-size: .9em;
+	padding: 5px 20px 5px 20px !important;
+
+	&:hover {
+		background-color: darken($green, 14%);
+	}
+}
+
+.btn-warning {
+	float: left;
+	width: auto;
+	background-color: darken($lightgray, 10%);
+	color: $white;
+	@include border-radius(0px);
+	border: 0px;
+	font-family: $regular;
+	font-size: .9em;
+	padding: 5px 20px 5px 20px !important;
+}
+
+.btn-default {
+	float: right;
+	width: auto;
+	background-color: darken($mediumblue, 5%);
+	color: $white;
+	@include border-radius(0px);
+	border: 0px;
+	font-family: $regular;
+	font-size: .9em;
+	padding: 5px 20px 5px 20px !important;
+	text-transform: uppercase;
+
+	&:hover {
+		background-color: darken($darkblue, 14%);
+	}
+
+	&:active {
+		background-color: darken($darkblue, 14%);
+	}
+}
+
+#editText {
+	float: left;
+	width: 65px;
+	height: 30px;
+	padding: 8px 0px 5px 0px;
+	font-size: .9em;
+	background-color: transparent;
+	color: darken($teal, 10%);
+
+	&:hover {
+		color: $white;
+		cursor: pointer;
+		text-decoration: underline;
+	}
+
+	@media only screen and (min-width: 768px) and (max-width: 850px) {
+		display: none;
+	}
+}
+
+.hover {
+	display: block;
+}
+
+/* ---------- BEGIN CLASS WIZARD SALES ----------  */
+
+.classWizardBodyContainer_classWizard {
+	float: left;
+	width: 100%;
+	background-color: $white;
+	@include box-shadow($charcoal 0px 0px 4px);
+	margin: 20px 0px 0px 0px;
+	padding: 0px 30px 30px 30px;
+
+	@media only screen and (min-width:0px) and (max-width:767px) {
+		padding: 0px 15px 30px 15px;
+	}
+
+	h1 {
+		width: 70%;
+		margin: 40px 0px 0px 0px;
+	}
+
+	h5 {
+		float: left;
+		width: 100%;
+		font-family: $regular;
+		font-size: .9em;
+		font-style: italic;
+		color: darken($salmon, 15%);
+		padding: 7px 0px 5px 0px;
+	}
+}
+
+.packageContainer {
+	float: left;
+	width: 100%;
+	margin: 15px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	background-color: $white;
+	border: 1px solid $darkblue;
+
+	h3 {
+		float: left;
+		width: 100%;
+		color: $white;
+		text-align: center;
+		padding: 8px 0px 8px 0px;
+		background-color: $darkblue;
+		font-family: $lato;
+		font-size: 1em;
+		position: relative;
+		border-bottom: 1px solid $white;
+
+		@media only screen and (min-width:0px) and (max-width: 767px) { 
+			text-align: left;
+			padding: 8px 0px 8px 20px;
+		}
+
+		.priceBox {
+			width: 130px;
+			background-color: darken($salmon, 18%);
+			color: $white;
+			font-weight: bold;
+			font-size: 1.1em;
+			padding: 7px 0px 7px 0px;
+			position: absolute;
+			top: 0px;
+			right: 0px;
+			border-left: 1px solid $white;
+
+			@media only screen and (min-width:0px) and (max-width: 767px) { 
+				text-align: center;
+			}
+		}
+	}
+
+	h4 {
+		float: left;
+		width: 100%;
+		color: $white;
+		text-align: center;
+		padding: 4px 0px 4px 0px;
+		background-color: $teal;
+		font-family: $lato;
+		font-size: .9em;
+		font-style: italic;
+		border-bottom: 1px solid $darkblue;
+	}
+
+	.packageContainerBodyTop {
+		float: left;
+		width: 100%;
+		background-color: $white;
+		padding: 15px 0px 10px 30px;
+		font-family: $regular;
+
+		@media only screen and (min-width:0px) and (max-width:767px) {
+			padding: 15px 0px 10px 15px;
+		}
+
+		p {
+			float: left;
+			width: 100%;
+			font-weight: bold;
+			padding: 0px 20px 5px 0px;
+			margin: 0px 0px 4px 0px;
+			font-size: .95em;
+			line-height: 1.3em;
+		}
+
+		li {
+			float: left;
+			width: 100%;
+			font-size: .95em;
+			font-weight: normal;
+			margin: 0px 0px 8px 0px;
+			padding: 0px 0px 0px 10px;
+		}
+	}
+
+	.packageContainerBodyBottom {
+		float: left;
+		width: 100%;
+		border-top: 1px solid $teal;
+		padding: 0px 0px 0px 30px;
+		font-family: $regular;
+
+		@media only screen and (min-width:0px) and (max-width:767px) {
+			padding: 0px 0px 0px 15px;
+		}
+	}
+}
+
+.formChoices2 {
+	float: left;
+	width: 100%;
+	padding: 0px 30px 40px 0px;
+	margin: 0px 0px 0px 0px;
+	font-family: $regular;
+	font-size: .95em;
+	line-height: 1.3em;
+
+	@media only screen and (min-width:0px) and (max-width:767px) {
+		padding: 0px 20px 40px 20px;
+	}
+
+	p {
+		margin: 9px 0px 0px 0px;
+		padding: 7px 0px 7px 0px;
+		border-bottom: 1px solid $lightgray;
+	}
+
+	div {
+		margin: 7px 0px 7px 0px;
+		padding: 0px 0px 7px 15px;
+		border-bottom: 1px solid $lightgray;
+	}
+
+	input {
+		margin: 0px 11px 0px 0px;
+	}
+}
+
+.formChoices3 {
+	float: left;
+	width: 100%;
+	padding: 0px 30px 40px 30px;
+	margin: 6px 0px 0px 40px;
+	font-family: $regular;
+	font-size: .75em;
+	line-height: 1.3em;
+
+	@media only screen and (min-width:0px) and (max-width:767px) {
+		padding: 0px 20px 40px 20px;
+	}
+
+	p {
+		font-size: .8em !important;
+		margin: 9px 0px 0px 0px;
+		padding: 7px 0px 7px 0px;
+		border-bottom: 1px solid $lightgray;
+	}
+
+	div {
+		margin: 7px 0px 7px 0px;
+		padding: 0px 0px 7px 15px;
+		border-bottom: 1px solid $lightgray;
+	}
+
+	input {
+		margin: 0px 11px 0px 0px;
+	}
+}
+
+.subListItem1 {
+	float: left;
+	padding: 10px 0px 10px 0px;
+	margin: 8px 0px 8px 0px !important;
+}
+
+.price {
+	font-size: 1em !important;
+	font-weight: bold;
+	color: darken($salmon, 15%) !important;
+}
+
+.alertText {
+	font-size: .85em !important;
+	font-weight: bold;
+	color: darken($salmon, 15%) !important;
+	font-style: italic;
+}
+
+.packageContainerBodyTable {
+		float: left;
+		width: 100%;
+		background-color: $white;
+		padding: 15px 30px 10px 30px;
+		font-family: $regular;
+
+		@media only screen and (min-width:0px) and (max-width:767px) {
+			padding: 15px 13px 10px 13px;
+		}
+}
+
+.productsTable {
+	margin: 0px 0px 20px 0px;
+
+	th {
+		background-color: lighten($lightblue, 10%);
+		font-weight: bold;
+		padding: 4px 0px 4px 10px;
+	}
+
+	td {
+		font-size: .9em;
+		padding: 7px 0px 7px 10px;
+		border-bottom: 1px solid $lightgray;
+	}
+
+	input {
+		margin: 0px 10px 0px 0px;
+	}
+}
+
+.tableColumnLeft {
+	width: 80%;
+}
+
+.tableColumnHeaderLeft {
+	width: 80%;
+}
+
+.tableColumnRight {
+	width: 20%;
+	text-align: center;
+	padding: 0px 10px 0px 0px;
+	color: darken($salmon, 20%) !important;
+	font-weight: bold !important;
+}
+
+.tableColumnHeaderRight {
+	width: 20%;
+	text-align: center;
+	padding: 0px 40px 0px 0px;
+}
+
+.tableColumnLeft2 {
+	width: 60%;
+}
+
+.tableColumnHeaderLeft2 {
+	width: 60%;
+}
+
+.tableColumnRight2 {
+	width: 20%;
+	text-align: center;
+	padding: 0px 10px 0px 0px;
+	color: darken($salmon, 20%) !important;
+	font-weight: bold !important;
+}
+
+.tableColumnHeaderRight2 {
+	width: 20%;
+	text-align: center;
+	padding: 0px 40px 0px 0px;
+	margin: 10px 0px 0px 0px;
+}
+
+.tableColumnMiddle {
+	width: 20%;
+}
+
+.tableColumnHeaderMiddle {
+	width: 20%;
+}
+
+/* ---------- BEGIN SHOPPING CART CSS ----------  */
+
+.classWizardBody2 {
+	float: left;
+	width: 100%;
+	height: auto;
+	background-color: $lightblue;
+	text-align: left;
+	padding: 0px 20px 20px 20px;
+
+	@media only screen and (min-width:0px) and (max-width:767px) {
+		padding: 0px 5px 20px 5px;
+	}
+
+	h1 {
+		float: left;
+		width: 50%;
+		font-size: 1.3em;
+		color: $teal;
+		font-family: $lato;
+		font-weight: 300;
+		margin: 40px 0px 0px 40px;
+		padding: 0px 0px 9px 0px;
+
+		@media only screen and (min-width:0px) and (max-width:767px) {
+			width: 80%;
+			margin: 40px 20px 0px 20px;
+		}
+	}
+}
+
+.classWizardBodyContainer_cart {
+	float: left;
+	width: 100%;
+	background-color: $white;
+	@include box-shadow($charcoal 0px 0px 4px);
+	margin: 20px 0px 0px 0px;
+	padding: 0px 30px 30px 30px;
+	font-family: $regular;
+
+	@media only screen and (min-width:0px) and (max-width:767px) {
+		padding: 0px 15px 30px 15px;
+	}
+
+	h1 {
+		width: 100%;
+		margin: 40px 0px 0px 0px;
+	}
+}
+
+.classWizardBodyContainer_cartLeft {
+	float: left;
+	width: 60%;
+}
+
+.classWizardBodyContainer_cartRight {
+	float: left;
+	width: 40%;
+	margin: 40px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	text-align: right;
+
+	p {
+		float: left;
+		width: 100%;
+		font-size: .75em !important;
+		margin: 0px 0px 5px 0px;
+		color: orange;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+
+	.exitRegistration {
+		color: lighten($charcoal, 35%);	
+	}
+}
+
+.totalsRow {
+	float: left;
+	width: 100%;
+
+	.totalsRow_recalculate {
+		float: left;
+		text-align: left;		
+	}
+
+	.totalsRow_shipping {
+		float: left;
+		width: 100%;
+		text-align: right;
+		color: $charcoal;
+		font-size: .85em;
+		margin: -15px 0px 0px 0px;
+
+		@media only screen and (min-width: 0px) and (max-width: 767px) { 
+			width: 100%;
+			margin: -15px 0px 0px 0px;
+		}
+
+		span {
+			color: $charcoal;
+			font-size: .8em;
+		}
+	}
+
+	.totalsRow_total {
+		float: left;
+		width: 100%;
+		text-align: right;
+		color: darken($salmon, 20%) !important;
+		margin: 10px 0px 0px 0px;
+		font-weight: bold;
+		font-size: 1.2em;
+
+		@media only screen and (min-width: 0px) and (max-width: 767px) { 
+			width: 100%;
+			margin: 10px 0px 0px 0px;
+		}
+
+		span {
+			color: $charcoal;
+			font-size: .8em;
+		}
+	}
+}
+
+.tableColumn1 {
+	width: 70%;
+}
+
+.tableColumnHeader1 {
+	width: 70%;
+	font-size: .95em;
+	padding: 4px 0px 4px 0px;
+}
+
+.tableColumn2 {
+	width: 20%;
+	text-align: center;
+	padding: 0px 10px 0px 0px;
+	font-weight: bold !important;
+}
+
+.tableColumnHeader2 {
+	font-size: .95em;
+	width: 20%;
+	text-align: center;
+	padding: 4px 0px 4px 0px;
+}
+
+.tableColumn3 {
+	width: 10%;
+	text-align: center;
+
+	&:hover {
+		color: $teal;
+	}
+}
+
+.tableColumnHeader3 {
+	font-size: .95em;
+	width: 10%;
+	text-align: center;
+	padding: 4px 0px 4px 0px;
+}
+
+.productsTable2 {
+	margin: 20px 0px 20px 0px;
+
+	th {
+		background-color: lighten($lightblue, 10%);
+		font-weight: bold;
+		padding: 4px 0px 4px 10px;
+
+		@media only screen and (min-width: 0px) and (max-width: 767px) { 
+			font-size: .80em;
+		}
+	}
+
+	td {
+		font-size: .9em;
+		padding: 7px 0px 7px 10px;
+		border-bottom: 1px solid $lightgray;
+
+		@media only screen and (min-width: 0px) and (max-width: 767px) { 
+			font-size: .80em;
+		}
+	}
+}
+
+.classWizardBodyContainer_cartContainer {
+	float: left;
+	width: 100%;
+	border-bottom: 2px solid $teal;
+
+}
+
+/* -----------  BEGIN TAKE EXISITING COURSES CSS ----------- */
+
+.homePageSelectContainer {
+	float: left;
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+	padding: 20px;
+}
+
+.homePageSelectContainer_1 {
+	float: left;
+	width: calc(20% - 20px);;
+	min-height: 190px;
+	padding: 5px 0px 0px 0px;
+	margin: 5px 10px 15px 10px;
+	border: 1px solid $salmon;
+	color: $teal;
+
+	@media only screen and (min-width: 1201px) and (max-width: 1400px) {
+		min-height: 170px;
+	}
+
+	@media only screen and (min-width: 993px) and (max-width: 1200px) {
+		min-height: 170px;
+	}
+
+	@media only screen and (min-width: 768px) and (max-width: 992px) { 
+		width: 100%;
+		min-height: 100px;
+		margin: 0px 10px 20px 10px;
+	}
+
+	@media only screen and (min-width: 0px) and (max-width: 767px) { 
+		width: 100%;
+		min-height: 100px;
+		margin: 0px 10px 20px 10px;
+	}
+
+	.homePageSelectContainer_1A {
+		float: left;
+		width: 100%;
+		color: lighten($salmon, 5%);
+		text-align: center;
+		font-size: 4em;
+		padding: 15px 0px 10px 0px;
+	}
+
+	.homePageSelectContainer_1A2 {
+		float: left;
+		width: 100%;
+		color: lighten($salmon, 5%);
+		text-align: center;
+		font-size: 4.5em;
+		padding: 5px 0px 10px 0px;
+	}
+
+	.homePageSelectContainer_1A2b {
+		float: left;
+		width: 100%;
+		color: lighten($salmon, 5%);
+		text-align: center;
+		font-size: 4.5em;
+		padding: 15px 0px 10px 0px;
+	}
+
+	.homePageSelectContainer_1A3 {
+		float: left;
+		width: 100%;
+		color: lighten($salmon, 5%);
+		text-align: center;
+		font-size: 3.5em;
+		padding: 22px 0px 10px 0px;
+	}
+
+	.homePageSelectContainer_1B {
+		float: left;
+		width: 100%;
+		color: darken($salmon, 15%);
+		font-family: $lato;
+		font-weight: 300;
+		text-align: center;
+		font-size: 1.2em;
+		line-height: 1.3em;
+		padding: 0px 20px 15px 20px;
+
+		@media only screen and (min-width: 1201px) and (max-width: 1400px) {
+			font-size: .95em;
+		}
+
+		@media only screen and (min-width: 993px) and (max-width: 1200px) {
+			font-size: .85em;
+			padding: 0px 10px 15px 10px;
+		}
+
+		@media only screen and (min-width: 768px) and (max-width: 992px) { 
+			font-size: 1.2em;
+		}
+
+		@media only screen and (min-width: 0px) and (max-width: 767px) { 
+			font-size: 1.2em;
+		}
+	}
+
+	&:hover {
+		background-color: $salmon !important;
+		cursor: pointer;
+		
+		.homePageSelectContainer_1A, .homePageSelectContainer_1A2, .homePageSelectContainer_1A3, .homePageSelectContainer_1A2b, .homePageSelectContainer_1B {
+			color: $white;
+		}
+	}
+}
+
+/* -----------  BEGIN ORDER TYPE CSS ----------- */
+
+.orderTypeContainer_main {
+	float: left;
+	width: 100%;
+	background-color: $white;
+	@include box-shadow($charcoal 0px 0px 4px);
+	margin: 20px 0px 0px 0px;
+	padding: 0px 0px 10px 0px;
+
+	@media only screen and (min-width:0px) and (max-width:992px) {
+		padding: 0px 15px 10px 0px;
+	}
+}
+
+.orderTypeContainer {
+	float: left;
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+	padding: 20px;
+}
+
+.orderTypeContainer_cc {
+	float: left;
+	width: calc(20% - 20px);;
+	height: 120px;
+	margin: 0px 10px 0px 10px;
+	border: 1px solid $salmon;
+	color: $teal;
+
+	@media only screen and (min-width: 993px) and (max-width: 1200px) {
+		height: 120px;
+	}
+
+	@media only screen and (min-width: 768px) and (max-width: 992px) { 
+		width: 100%;
+		min-height: 100px;
+		margin: 0px 10px 20px 10px;
+	}
+
+	@media only screen and (min-width: 0px) and (max-width: 767px) { 
+		width: 100%;
+		margin: 0px 10px 20px 10px;
+	}
+
+	.orderTypeContainer_cc_1A {
+		float: left;
+		width: 100%;
+		color: lighten($salmon, 5%);
+		text-align: center;
+		font-size: 4em;
+		padding: 10px 0px 10px 0px;
+	}
+
+	.orderTypeContainer_cc_1B {
+		float: left;
+		width: 100%;
+		color: darken($salmon, 15%);
+		font-family: $lato;
+		font-weight: 300;
+		text-align: center;
+		font-size: 1.2em;
+		line-height: 1.2em;
+		padding: 0px 20px 15px 20px;
+
+		@media only screen and (min-width: 1201px) and (max-width: 1400px) {
+			font-size: 1em;
+			padding: 0px 10px 15px 10px;
+		}
+
+		@media only screen and (min-width: 993px) and (max-width: 1200px) {
+			font-size: .85em;
+			padding: 0px 10px 15px 10px;
+		}
+
+		@media only screen and (min-width: 768px) and (max-width: 992px) { 
+			font-size: 1.2em;
+		}
+
+		@media only screen and (min-width: 0px) and (max-width: 767px) { 
+			font-size: 1.2em;
+		}
+	}
+
+	&:hover {
+		background-color: $salmon !important;
+		cursor: pointer;
+		
+		.orderTypeContainer_cc_1A, .orderTypeContainer_cc_1B {
+			color: $white;
+		}
+	}
+}
+
+.orderFinish_totalsRow {
+	float: left;
+	width: 100%;
+	height: 40px;
+}
+
+.totalsRow_orderFinish {
+	float: left;
+	width: 100%;
+
+	.totalsRow_price_orderFinish {
+		float: left;
+		width: 100%;
+		text-align: right;
+		color: $charcoal;
+		font-size: .85em;
+		margin: -5px 0px 0px 0px;
+
+		@media only screen and (min-width: 0px) and (max-width: 767px) { 
+			width: 100%;
+			margin: -15px 0px 0px 0px;
+		}
+
+		span {
+			color: $charcoal;
+			font-size: .8em;
+		}
+	}
+
+	.totalsRow_shipping_orderFinish {
+		float: left;
+		width: 100%;
+		text-align: right;
+		color: $charcoal;
+		font-size: .85em;
+		margin: 5px 0px 0px 0px;
+
+		@media only screen and (min-width: 0px) and (max-width: 767px) { 
+			width: 100%;
+			margin: -15px 0px 0px 0px;
+		}
+
+		span {
+			color: $charcoal;
+			font-size: .8em;
+		}
+	}
+
+	.totalsRow_total_orderFinish {
+		float: left;
+		width: 100%;
+		text-align: right;
+		color: darken($salmon, 20%) !important;
+		margin: 10px 0px 0px 0px;
+		font-weight: bold;
+		font-size: 1.2em;
+
+		@media only screen and (min-width: 0px) and (max-width: 767px) { 
+			width: 100%;
+			margin: 10px 0px 0px 0px;
+		}
+
+		span {
+			color: $charcoal;
+			font-size: .8em;
+		}
+	}
+}
+
+/* -----------  BEGIN ORDER BY CREDIT CARD CSS ----------- */
+
+.orderByCCContainer_main {
+	float: left;
+	width: 100%;
+	background-color: $white;
+	@include box-shadow($charcoal 0px 0px 4px);
+	margin: 20px 0px 0px 0px;
+	padding: 0px 0px 10px 0px;
+
+	@media only screen and (min-width:0px) and (max-width:992px) {
+		padding: 0px 5px 10px 0px;
+	}
+
+	h3 {
+		float: left;
+		width: 100%;
+		margin: 10px 0px 2px 30px;
+		color: red;
+		font-weight: bold;
+		font-style: italic;
+		font-family: $regular;
+		font-size: .8em;
+	}
+}
+
+.orderByCCContainer {
+	float: left;
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+	padding: 20px;
+}
+
+.orderByCCContainer_accountInfo {
+	float: left;
+	width: 50%;
+	margin: 0px 0px 0px 20px;
+	padding: 20px 20px 20px 30px;
+	@include box-shadow($charcoal 0px 0px 4px);
+
+	@media only screen and (min-width: 768px) and (max-width: 992px) {
+		width: 100%;
+		clear: both;
+		margin: 0px 0px 0px 5px;
+		padding: 20px 20px 20px 30px;		
+	}
+
+	@media only screen and (min-width: 0px) and (max-width: 767px) {
+		width: 100%;
+		clear: both;
+		margin: 0px 0px 0px 5px;
+		padding: 20px 15px 20px 20px;			
+	}
+
+	.orderByCCContainer_accountInfo_row {
+		float: left;
+		width: 100%;
+		margin: 2px 0px 2px 0px;
+		padding: 4px 0px 8px 0px;
+		border-bottom: 1px solid $lightgray;
+
+		.orderByCCContainer_accountInfo_row_left {
+			float: left;
+			width: 20%;
+			font-weight: bold;
+			font-family: $regular;
+			font-size: .9em;
+
+			@media only screen and (min-width: 0px) and (max-width: 767px) {
+				width: 100%;
+				clear: both;
+			}
+		}
+
+		.orderByCCContainer_accountInfo_row_right {
+			float: left;
+			width: 80%;
+			font-family: $regular;
+			font-size: .9em;
+
+			@media only screen and (min-width: 0px) and (max-width: 767px) {
+				width: 100%;
+				clear: both;
+				margin: 7px 0px 0px 0px;
+			}
+		}
+	}
+
+	.orderByCCContainer_accountInfo_row_bottom {
+		float: left;
+		width: 100%;
+		margin: 20px 0px 0px 0px;
+		font-family: $regular;
+		font-size: .9em;
+
+		input {
+			margin: 0px 9px 0px 0px;
+		}
+	}
+}
+
+.orderByCCContainer_accountInfo_row_bottom2 {
+	float: left;
+	clear: both;
+	width: 100%;
+	padding: 20px 20px 0px 20px;
+	font-family: $regular;
+	font-size: .9em;
+	line-height: 1.3em;
+	color: $teal;
+
+	@media only screen and (min-width: 768px) and (max-width: 992px) {
+		padding: 20px 20px 0px 20px;
+	}
+
+	@media only screen and (min-width: 0px) and (max-width: 767px) {
+		padding: 20px 10px 0px 10px;		
+	}
+
+	span {
+		font-weight: bold;
+	}
+}
+
+.orderByCCContainer_billingInfo {
+	float: left;
+	width: 50%;
+	margin: 30px 0px 0px 0px;
+	padding: 20px 0px 0px 20px;
+	border-top: 1px solid $lightgray;
+
+	@media only screen and (min-width: 768px) and (max-width: 992px) {
+		width: 100%;
+		clear: both;
+		padding: 20px 0px 0px 10px;		
+	}
+
+	@media only screen and (min-width: 0px) and (max-width: 767px) {
+		width: 100%;
+		clear: both;
+		padding: 20px 0px 0px 10px;	
+	}
+
+	h2 {
+		float: left;
+		width: 95%;
+		font-size: 1em;
+		font-family: $lato;
+		background-color: lighten($teal, 30%);
+		color: darken($teal, 20%);
+		font-weight: 400;
+		padding: 7px 0px 7px 12px;
+		margin: 0px 0px 17px 0px;
+	}
+
+	.orderByCCContainer_billingInfo_row {
+		float: left;
+		width: 100%;
+		margin: 2px 0px 2px 0px;
+		padding: 0px 0px 6px 0px;
+
+		.orderByCCContainer_billingInfo_row_left {
+			float: left;
+			width: 30%;
+			font-weight: bold;
+			font-family: $regular;
+			font-size: .9em;
+		}
+
+		.orderByCCContainer_billingInfo_row_right {
+			float: left;
+			width: 70%;
+			font-family: $regular;
+			font-size: .9em;
+
+			input {
+				width: 90%;
+				padding: 5px 0px 3px 7px;
+				@include border-radius(0px);
+			}
+		}
+	}
+
+	.orderByCCContainer_billingInfo_row_bottom {
+		float: left;
+		width: 100%;
+		margin: 20px 0px 0px 0px;
+		font-family: $regular;
+		font-size: .9em;
+		line-height: 1.3em;
+
+		input {
+			margin: 0px 9px 0px 0px;
+		}
+	}
+}
+
+.orderByCCContainer_billingInfo_row_bottom2 {
+	float: left;
+	width: 100%;
+	margin: 20px 0px 0px 0px;
+	font-family: $regular;
+	font-size: .9em;
+	line-height: 1.3em;
+	color: $teal;
+
+	input {
+		margin: 0px 9px 0px 0px;
+	}
+}
+
+.orderByCCContainer_shippingInfo {
+	float: left;
+	width: 50%;
+	margin: 30px 0px 0px 0px;
+	padding: 20px 0px 0px 20px;
+	border-top: 1px solid $lightgray;
+
+	@media only screen and (min-width: 768px) and (max-width: 992px) {
+		width: 100%;
+		clear: both;
+		padding: 20px 0px 0px 10px;				
+	}
+
+	@media only screen and (min-width: 0px) and (max-width: 767px) {
+		width: 100%;
+		clear: both;
+		padding: 20px 0px 0px 10px;				
+	}
+
+	h2 {
+		float: left;
+		width: 95%;
+		font-size: 1em;
+		font-family: $lato;
+		background-color: lighten($teal, 30%);
+		color: darken($teal, 20%);
+		font-weight: 400;
+		padding: 7px 0px 7px 12px;
+		margin: 0px 0px 17px 0px;
+	}
+
+	.orderByCCContainer_shippingInfo_row {
+		float: left;
+		width: 100%;
+		margin: 2px 0px 2px 0px;
+		padding: 0px 0px 6px 0px;
+
+		.orderByCCContainer_shippingInfo_row_left {
+			float: left;
+			width: 30%;
+			font-weight: bold;
+			font-family: $regular;
+			font-size: .9em;
+		}
+
+		.orderByCCContainer_shippingInfo_row_right {
+			float: left;
+			width: 70%;
+			font-family: $regular;
+			font-size: .9em;
+
+			input {
+				width: 90%;
+				padding: 5px 0px 3px 7px;
+				@include border-radius(0px);
+			}
+		}
+	}
+
+	.orderByCCContainer_shippingInfo_row_bottom {
+		float: fleft;
+		width: 100%;
+		margin: 20px 0px 0px 0px;
+		font-family: $regular;
+		font-size: .9em;
+
+		input {
+			margin: 0px 9px 0px 0px;
+		}
+	}
+}
+
+.orderByCCContainer_CCInfo {
+	float: left;
+	clear: both;
+	width: 100%;
+	margin: 30px 0px 0px 0px;
+	padding: 20px 0px 0px 20px;
+	border-top: 1px solid $lightgray;
+
+	@media only screen and (min-width: 768px) and (max-width: 992px) {
+		padding: 20px 0px 0px 10px;				
+	}
+
+	@media only screen and (min-width: 0px) and (max-width: 767px) {
+		padding: 20px 0px 0px 10px;				
+	}
+
+	h2 {
+		float: left;
+		width: 95%;
+		font-size: 1em;
+		font-family: $lato;
+		background-color: lighten($teal, 30%);
+		color: darken($teal, 20%);
+		font-weight: 400;
+		padding: 7px 0px 7px 12px;
+		margin: 0px 0px 17px 0px;
+	}
+
+	.orderByCCContainer_CCInfo_row {
+		float: left;
+		width: 100%;
+		margin: 2px 0px 2px 0px;
+		padding: 0px 0px 6px 0px;
+
+		.orderByCCContainer_CCInfo_row_left {
+			float: left;
+			width: 20%;
+			font-weight: bold;
+			font-family: $regular;
+			font-size: .9em;
+
+			@media only screen and (min-width: 0px) and (max-width: 767px) {
+				width: 100%;
+				clear: both;
+			}
+		}
+
+		.orderByCCContainer_CCInfo_row_right {
+			float: left;
+			width: 80%;
+			font-family: $regular;
+			font-size: .9em;
+
+			@media only screen and (min-width: 0px) and (max-width: 767px) {
+				width: 100%;
+				clear: both;
+				margin: 8px 0px 0px 0px;
+			}
+
+			input {
+				width: 40%;
+				padding: 5px 0px 3px 7px;
+				@include border-radius(0px);
+
+				@media only screen and (min-width: 0px) and (max-width: 767px) {
+					width: 90%;
+				}
+
+			}
+		}
+	}
+
+	.orderByCCContainer_CCInfo_row_bottom {
+		float: left;
+		width: 100%;
+		margin: 20px 0px 0px 0px;
+		font-family: $regular;
+		font-size: .9em;
+
+		input {
+			margin: 0px 9px 0px 0px;
+		}
+	}
+}
+
+.requiredInput {
+	color: red;
+	font-weight: bold;
+	margin: 0px 7px 0px 0px;
+}
